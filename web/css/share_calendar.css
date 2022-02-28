@@ -1,0 +1,59 @@
+h1 {
+  padding-top:10px;
+}
+
+#large {
+  padding:0px 10px;
+}
+
+#large > .row {
+  padding-top: 20px;
+}
+
+@keyframes fadein {
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+
+.partner_index {
+  animation: fadein 1s linear 0s 1 normal forwards;
+}
+
+.partner_detail {
+  animation: fadein 1s linear 0s 1 normal forwards;
+}
+
+.calendar {
+  table-layout: fixed;
+}
+
+.scroll{
+  overflow-x:scroll;
+  overflow-y:scroll;
+
+}
+
+.cell-link a {
+  display: block;
+  height:107px;
+  text-decoration: none;
+  color:black;
+}
+
+.badges{
+  height:80px;
+}
+
+.badges .badge{
+  display: flex;
+  text-align: left;
+  margin-top: 2px;
+}
+
+.badges .bg-light{
+  color:#343a40;
+}
+
+.badges .bg-dark{
+  color:#ffffff;
+}
